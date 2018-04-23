@@ -11,5 +11,5 @@ encode_categorical_features("features.csv")
 encode_categorical_features("features.csv")
 continuous_features_selection('encoded_features.csv','gross.csv')'''
 print(training_and_testing("encoded_features.csv", "gross.csv"))
-oob_error("encoded_features.csv", "gross.csv")
-grid_search_classifier("encoded_features.csv", "gross.csv")
+'''oob_error("encoded_features.csv", "gross.csv")
+grid_search_classifier("encoded_features.csv", "gross.csv")'''

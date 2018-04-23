@@ -42,8 +42,8 @@ def training_and_testing(X_inputfile, Y_inputfile):
     print(model.score(X_test,Y_test))
 
     predictions = random_forest_clf.predict(X_test)
-    for i in range(len(predictions)):
-        print(predictions[i], Y_test[i])
+    '''for i in range(len(predictions)):
+        print(predictions[i], Y_test[i])'''
 
     plt.scatter(list(predictions), list(Y_test))
     plt.xlabel("gross")

@@ -1,1 +1,5 @@
-*movie_metadata.csv
+/clean_movie_data.csv
+/encoded_features.csv
+/features.csv
+/gross.csv
+/imdb_ratings.csv
