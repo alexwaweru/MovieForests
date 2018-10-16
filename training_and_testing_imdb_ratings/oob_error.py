@@ -65,7 +65,7 @@ def oob_error(X_inputfile, Y_inputfile):
         plt.plot(xs, ys, label=label)
 
     plt.xlim(min_estimators, max_estimators)
-    plt.title("Parameter optimization for gross revenue")
+    plt.title("Parameter optimization for imdb ratings")
     plt.xlabel("n_estimators")
     plt.ylabel("error rate")
     plt.legend(loc="upper right")
